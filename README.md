@@ -26,3 +26,10 @@ Repo created to review different software patterns
   to call this class without an instance of the outer class.
   - Violation of CQS (Command-Query Separation) as the setters in the builder run a command (they set a value) and they 
   run a query (return the builder class).
+
+### Factory Method Pattern
+- Uses
+  - Uses **factory methods** to instantiate objects instead of calling the exact class itself using new.
+  
+- To take into consideration
+  - We give the responsibility of instantiation to other class rather than the object.
