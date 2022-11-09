@@ -19,6 +19,9 @@ Repo created to review different software patterns
   where the tests should be totally independent of each other.
 
 ### Builder Pattern
+
+![alt text](assets/builder.png)
+
 - Uses
   - Help to instantiate objects that are complex to create.
   - An example of use
