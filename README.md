@@ -33,3 +33,11 @@ Repo created to review different software patterns
   
 - To take into consideration
   - We give the responsibility of instantiation to other class rather than the object.
+
+### Factory  Pattern
+- Uses
+  - It reminds me of a Facade Pattern for creation purposes. You collect the creation logic into a factory that you
+  use to avoid exposing the logic to the client.
+- To take into consideration
+  -  Use of static on the make method in the factory, static modifier makes functionality difficult to test/mock
+  - Use of switch to divert the flow. Polymorphism is a solution for this problem.
