@@ -5,6 +5,9 @@ Repo created to review different software patterns
 ## CREATIONAL PATTERNS  
 
 ### Singleton Pattern
+
+![alt text](assets/singleton.png)
+
 - Uses
   - Restricts the instantiation of a class and ensures that only one instance of the class exists in the java virtual machine
 - To take into consideration
