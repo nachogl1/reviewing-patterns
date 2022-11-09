@@ -39,5 +39,14 @@ Repo created to review different software patterns
   - It reminds me of a Facade Pattern for creation purposes. You collect the creation logic into a factory that you
   use to avoid exposing the logic to the client.
 - To take into consideration
-  -  Use of static on the make method in the factory, static modifier makes functionality difficult to test/mock
+  - Use of static on the make method in the factory, static modifier makes functionality difficult to test/mock
   - Use of switch to divert the flow. Polymorphism is a solution for this problem.
+
+### Prototype  Pattern
+- Uses
+  - Use to clone object avoiding dependencies among them. Done carefully, deep copying can be achieved. 
+- To take into consideration
+  - The idea of implementing this way is because we will have access to private objects internally in the object 
+  - It is necessary to implement prototype not only in the object you want to clone but in the object that compose
+  the main one. In this case, Car and GPS implement prototype because we do not only want to clone Car but the GPS inside the car.
+  Otherwise, different car instances will hold the same GPS instance.
