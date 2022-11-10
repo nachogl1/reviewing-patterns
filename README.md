@@ -56,3 +56,13 @@ Repo created to review different software patterns
   - It is necessary to implement prototype not only in the object you want to clone but in the object that compose
   the main one. In this case, Car and GPS implement prototype because we do not only want to clone Car but the GPS inside the car.
   Otherwise, different car instances will hold the same GPS instance.
+
+### Abstract Factory Pattern
+
+![alt text](assets/abstractFactory.png)
+
+- Uses
+  - Allows you to create different factories to create items of different families.
+- To take into consideration
+  - I used different methods instead of a switch to control the flow what to choose. I guess it depends on the 
+  context that this may be the best option. 
