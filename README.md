@@ -34,6 +34,10 @@ Repo created to review different software patterns
   run a query (return the builder class).
 
 ### Factory Method Pattern
+
+![alt text](assets/factoryMethod.png)
+
+
 - Uses
   - Uses **factory methods** to instantiate objects instead of calling the exact class itself using new.
   
@@ -41,6 +45,9 @@ Repo created to review different software patterns
   - We give the responsibility of instantiation to other class rather than the object.
 
 ### Factory  Pattern
+
+![alt text](assets/factory.png)
+
 - Uses
   - It reminds me of a Facade Pattern for creation purposes. You collect the creation logic into a factory that you
   use to avoid exposing the logic to the client.
@@ -49,6 +56,9 @@ Repo created to review different software patterns
   - Use of switch to divert the flow. Polymorphism is a solution for this problem.
 
 ### Prototype  Pattern
+
+![alt text](assets/protype.png)
+
 - Uses
   - Use to clone object avoiding dependencies among them. Done carefully, deep copying can be achieved. 
 - To take into consideration
