@@ -66,3 +66,18 @@ Repo created to review different software patterns
 - To take into consideration
   - I used different methods instead of a switch to control the flow what to choose. I guess it depends on the 
   context that this may be the best option. 
+
+## BEHAVIOURAL PATTERNS
+
+### State Pattern
+
+![alt text](assets/statePattern.png)
+For this example, the State Machine for the Vending Machine would be:
+![alt text](assets/stateMachine.png)
+
+- Uses
+  - An object contains a state and its behaviour is able to mutate depending on its specific state
+- To take into consideration
+  - Interface Segregation Principle violated over Liskov Substitution Principle, due to the fact that one particular state can go to different ones
+  there will be combinations that will not make sense. I guess there is a way of fixing this, although I am now exploring the pattern. I will
+  try to improve in the future.
