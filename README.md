@@ -2,80 +2,83 @@
 
 Repo created to review different software patterns
 
-## CREATIONAL PATTERNS  
+## CREATIONAL PATTERNS
 
 ### Singleton Pattern
 
 ![alt text](assets/singleton.png)
 
 - Uses
-  - Restricts the instantiation of a class and ensures that only one instance of the class exists in the java virtual machine
+    - Restricts the instantiation of a class and ensures that only one instance of the class exists in the java virtual
+      machine
 - To take into consideration
-  - We are playing with global variables which is not thread-safe
+    - We are playing with global variables which is not thread-safe
 
-  - Mocking static brings a lot of headaches
+    - Mocking static brings a lot of headaches
 
-  - The fact that it is not thread-safe and we using global variables make the state uncertain during tests and that create temporal coupling,
-  where the tests should be totally independent of each other.
+    - The fact that it is not thread-safe and we using global variables make the state uncertain during tests and that
+      create temporal coupling,
+      where the tests should be totally independent of each other.
 
 ### Builder Pattern
 
 ![alt text](assets/builder.png)
 
 - Uses
-  - Help to instantiate objects that are complex to create.
-  - An example of use
-  
+    - Help to instantiate objects that are complex to create.
+    - An example of use
+
   ```InstanceNeedsBuilder instance = InstanceNeedsBuilder.builder().setAge(9).setName("Name").build();```
 - To take into consideration
-  - The version of the builder that we review in this repo has a static nested class. this is necessary to be able 
-  to call this class without an instance of the outer class.
-  - Violation of CQS (Command-Query Separation) as the setters in the builder run a command (they set a value) and they 
-  run a query (return the builder class).
+    - The version of the builder that we review in this repo has a static nested class. this is necessary to be able
+      to call this class without an instance of the outer class.
+    - Violation of CQS (Command-Query Separation) as the setters in the builder run a command (they set a value) and
+      they
+      run a query (return the builder class).
 
 ### Factory Method Pattern
 
 ![alt text](assets/factoryMethod.png)
 
-
 - Uses
-  - Uses **factory methods** to instantiate objects instead of calling the exact class itself using new.
-  
+    - Uses **factory methods** to instantiate objects instead of calling the exact class itself using new.
+
 - To take into consideration
-  - We give the responsibility of instantiation to other class rather than the object.
+    - We give the responsibility of instantiation to other class rather than the object.
 
 ### Factory  Pattern
 
 ![alt text](assets/factory.png)
 
 - Uses
-  - It reminds me of a Facade Pattern for creation purposes. You collect the creation logic into a factory that you
-  use to avoid exposing the logic to the client.
+    - It reminds me of a Facade Pattern for creation purposes. You collect the creation logic into a factory that you
+      use to avoid exposing the logic to the client.
 - To take into consideration
-  - Use of static on the make method in the factory, static modifier makes functionality difficult to test/mock
-  - Use of switch to divert the flow. Polymorphism is a solution for this problem.
+    - Use of static on the make method in the factory, static modifier makes functionality difficult to test/mock
+    - Use of switch to divert the flow. Polymorphism is a solution for this problem.
 
 ### Prototype  Pattern
 
 ![alt text](assets/protype.png)
 
 - Uses
-  - Use to clone object avoiding dependencies among them. Done carefully, deep copying can be achieved. 
+    - Use to clone object avoiding dependencies among them. Done carefully, deep copying can be achieved.
 - To take into consideration
-  - The idea of implementing this way is because we will have access to private objects internally in the object 
-  - It is necessary to implement prototype not only in the object you want to clone but in the object that compose
-  the main one. In this case, Car and GPS implement prototype because we do not only want to clone Car but the GPS inside the car.
-  Otherwise, different car instances will hold the same GPS instance.
+    - The idea of implementing this way is because we will have access to private objects internally in the object
+    - It is necessary to implement prototype not only in the object you want to clone but in the object that compose
+      the main one. In this case, Car and GPS implement prototype because we do not only want to clone Car but the GPS
+      inside the car.
+      Otherwise, different car instances will hold the same GPS instance.
 
 ### Abstract Factory Pattern
 
 ![alt text](assets/abstractFactory.png)
 
 - Uses
-  - Allows you to create different factories to create items of different families.
+    - Allows you to create different factories to create items of different families.
 - To take into consideration
-  - I used different methods instead of a switch to control the flow what to choose. I guess it depends on the 
-  context that this may be the best option. 
+    - I used different methods instead of a switch to control the flow what to choose. I guess it depends on the
+      context that this may be the best option.
 
 ## BEHAVIOURAL PATTERNS
 
@@ -86,8 +89,23 @@ For this example, the State Machine for the Vending Machine would be:
 ![alt text](assets/stateMachine.png)
 
 - Uses
-  - An object contains a state and its behaviour is able to mutate depending on its specific state
+    - An object contains a state and its behaviour is able to mutate depending on its specific state
 - To take into consideration
-  - Interface Segregation Principle violated over Liskov Substitution Principle, due to the fact that one particular state can go to different ones
-  there will be combinations that will not make sense. I guess there is a way of fixing this, although I am now exploring the pattern. I will
-  try to improve in the future.
+    - Interface Segregation Principle violated over Liskov Substitution Principle, due to the fact that one particular
+      state can go to different ones
+      there will be combinations that will not make sense. I guess there is a way of fixing this, although I am now
+      exploring the pattern. I will
+      try to improve in the future.
+- ### Strategy Pattern
+
+![alt text](assets/strategyPattern.png)
+
+- Uses
+    - Allows you to choose different algorithms at runtime to achieve an objective. In the case of this example,
+      it lets us choose what type of payment strategy we want to use to accomplish the objective of paying for items.
+- To take into consideration
+    - I like this pattern, so maybe I got onboard with the details and got the problem too complicated for what it is
+      in reality, I hope you can understand it. I really enjoyed it. For sure there are wrong things in the code, but
+      the
+      objective is to describe the pattern.
+    - 
