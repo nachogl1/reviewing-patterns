@@ -108,3 +108,25 @@ For this example, the State Machine for the Vending Machine would be:
       in reality, I hope you can understand it. I really enjoyed it. For sure there are wrong things in the code, but
       the
       objective is to describe the pattern.
+
+- ### Template Pattern
+
+![alt text](assets/templatePattern.png)
+
+- Uses
+  - Customise internal steps of a common process
+- To take into consideration
+
+
+- ### Observer Pattern
+
+![alt text](assets/observerPattern.png)
+
+- Uses
+    - Notify observers of state changes on observed object
+- To take into consideration
+  - In this example, the clients can only subscribe to one subject to be observed. But the general idea is to allow
+  them to subscribe as many as they want.
+  - The user is automatically subscribed on creation as you need the subject to observed when creating the user. 
+  This is just an example but realistically, the user will decide to subscribe way after the object is created.
+  - Possibility of unsubscribe is not in the example
