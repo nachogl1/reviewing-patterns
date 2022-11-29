@@ -108,4 +108,3 @@ For this example, the State Machine for the Vending Machine would be:
       in reality, I hope you can understand it. I really enjoyed it. For sure there are wrong things in the code, but
       the
       objective is to describe the pattern.
-    - 
