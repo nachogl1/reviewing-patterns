@@ -143,3 +143,12 @@ For this example, the State Machine for the Vending Machine would be:
     - For the container interface there is barely functionalities, we could think of adding add(), remove(), etc.
     - Remember that for the iterator we're implementing now, there is no feature that covers going backwards. In order
       to revisit an old element in the data structure you will need a new iterator.
+
+- ### Memento Pattern 
+
+![alt text](assets/mementoPattern.png)
+
+- Uses
+  - Restore previous state of an object 
+- To take into consideration
+  - the current example covers undo features for Strings, via using Generics we could adapt this to different objects types. 
