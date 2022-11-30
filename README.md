@@ -114,7 +114,7 @@ For this example, the State Machine for the Vending Machine would be:
 ![alt text](assets/templatePattern.png)
 
 - Uses
-  - Customise internal steps of a common process
+    - Customise internal steps of a common process
 - To take into consideration
 
 
@@ -125,8 +125,21 @@ For this example, the State Machine for the Vending Machine would be:
 - Uses
     - Notify observers of state changes on observed object
 - To take into consideration
-  - In this example, the clients can only subscribe to one subject to be observed. But the general idea is to allow
-  them to subscribe as many as they want.
-  - The user is automatically subscribed on creation as you need the subject to observed when creating the user. 
-  This is just an example but realistically, the user will decide to subscribe way after the object is created.
-  - Possibility of unsubscribe is not in the example
+    - In this example, the clients can only subscribe to one subject to be observed. But the general idea is to allow
+      them to subscribe as many as they want.
+    - The user is automatically subscribed on creation as you need the subject to observed when creating the user.
+      This is just an example but realistically, the user will decide to subscribe way after the object is created.
+    - Possibility of unsubscribe is not in the example
+
+- ### Iterator Pattern (Simple)
+
+![alt text](assets/iteratorPattern.png)
+
+- Uses
+    - Iterate your own data structure, and implement custom behaviour
+- To take into consideration
+    - For this example, we will use a data structure that only accepts Strings. Using Generics we could try to be more
+      flexible.
+    - For the container interface there is barely functionalities, we could think of adding add(), remove(), etc.
+    - Remember that for the iterator we're implementing now, there is no feature that covers going backwards. In order
+      to revisit an old element in the data structure you will need a new iterator.
