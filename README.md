@@ -144,11 +144,26 @@ For this example, the State Machine for the Vending Machine would be:
     - Remember that for the iterator we're implementing now, there is no feature that covers going backwards. In order
       to revisit an old element in the data structure you will need a new iterator.
 
-- ### Memento Pattern 
+- ### Memento Pattern
 
 ![alt text](assets/mementoPattern.png)
 
 - Uses
-  - Restore previous state of an object 
+    - Restore previous state of an object
 - To take into consideration
-  - the current example covers undo features for Strings, via using Generics we could adapt this to different objects types. 
+    - the current example covers undo features for Strings, via using Generics we could adapt this to different objects
+      types.
+
+
+- ### Chain Of Responsibility Pattern
+
+![alt text](assets/corPattern.png)
+
+- Uses
+    - Chain of objects with different responsibilities towards completing a task
+- To take into consideration
+    - In the main, the way we cycle handlers is a little awkward because the return, returns the last cycled
+      handler if you do everything on a one-liner. Another solution would be to start from the last handler and go back,
+      that feels pretty weird.
+    - The 'DatabaseConnection' emulates connecting to a DB and checking the username, password and role.
+    - cycleHandler() violates CQS as it is a command that also returns an object.
