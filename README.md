@@ -167,3 +167,14 @@ For this example, the State Machine for the Vending Machine would be:
       that feels pretty weird.
     - The 'DatabaseConnection' emulates connecting to a DB and checking the username, password and role.
     - cycleHandler() violates CQS as it is a command that also returns an object.
+
+
+- ### Command Pattern
+
+![alt text](assets/commandPattern.png)
+
+- Uses
+    - Requests are wrapped in objects and passed to invoker
+- To take into consideration
+    - Customer object was added to show that in different classes we can apply commands, that class is empty for this
+      example
