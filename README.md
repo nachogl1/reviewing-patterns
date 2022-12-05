@@ -103,6 +103,8 @@ For this example, the State Machine for the Vending Machine would be:
 - Uses
     - Allows you to choose different algorithms at runtime to achieve an objective. In the case of this example,
       it lets us choose what type of payment strategy we want to use to accomplish the objective of paying for items.
+    - The difference with visitor is that different strategies are applied to one target. Whereas in visitor,
+      we focus on one algorithm that is applied to different targets.
 - To take into consideration
     - I like this pattern, so maybe I got onboard with the details and got the problem too complicated for what it is
       in reality, I hope you can understand it. I really enjoyed it. For sure there are wrong things in the code, but
@@ -178,3 +180,14 @@ For this example, the State Machine for the Vending Machine would be:
 - To take into consideration
     - Customer object was added to show that in different classes we can apply commands, that class is empty for this
       example
+
+
+- ### Visitor Pattern
+
+![alt text](assets/visitorPattern.png)
+
+- Uses
+  - Apply an algorithm to different target objects, the difference with Strategy is that we apply one algorithm to
+  different targets
+- To take into consideration
+  -  
