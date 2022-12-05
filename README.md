@@ -187,7 +187,18 @@ For this example, the State Machine for the Vending Machine would be:
 ![alt text](assets/visitorPattern.png)
 
 - Uses
-  - Apply an algorithm to different target objects, the difference with Strategy is that we apply one algorithm to
-  different targets
+    - Apply an algorithm to different target objects, the difference with Strategy is that we apply one algorithm to
+      different targets
 - To take into consideration
   -  
+
+- ### Mediator Pattern
+
+![alt text](assets/mediatorPattern.png)
+
+- Uses
+    - Reduce communication complexity among objects
+- To take into consideration
+    - For this example, we created a chat room which makes communication better.
+    - Another idea would be to create chatroom for two people to communicate privately. Emulating user-to-user
+      communication.
