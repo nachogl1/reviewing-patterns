@@ -202,3 +202,5 @@ For this example, the State Machine for the Vending Machine would be:
     - For this example, we created a chat room which makes communication better.
     - Another idea would be to create chatroom for two people to communicate privately. Emulating user-to-user
       communication.
+    - The idea for this example is that you canhave as many participants as you want communicating using a the chat room
+      as mediator.
