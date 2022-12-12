@@ -211,9 +211,23 @@ For this example, the State Machine for the Vending Machine would be:
 ![alt text](assets/facadePattern.png)
 
 - Uses
-  - Group independent functions that solve a final problem under a façade 
+    - Group independent functions that solve a final problem under a façade
 - To take into consideration
     - In this case, the user may think we can use abstraction for all the calculators but this is one case.
       Maybe the facade gathers services that are not that closely related and abstractions are not of use, that is why
       it was taken into consideration for this example.
     - Another example that I liked: https://www.baeldung.com/java-facade-pattern
+
+
+- ### Decorator Pattern
+
+![alt text](assets/decoratorPattern.png)
+
+- Uses
+    - Wrap original class with decorators to add functionality
+- To take into consideration
+    - I used the abstract class Pizza Decorator in a way kind of close to template pattern in which I stated what
+      I need it to do with the prices and the names, and the only thing left for the decorators is to return their own
+      name and price.
+    - The reason the base of the pizza is last is that its constructor It is not pushed to have any arguments.
+    - 
