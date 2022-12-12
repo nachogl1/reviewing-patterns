@@ -204,3 +204,16 @@ For this example, the State Machine for the Vending Machine would be:
       communication.
     - The idea for this example is that you canhave as many participants as you want communicating using a the chat room
       as mediator.
+
+
+- ### Facade Pattern
+
+![alt text](assets/facadePattern.png)
+
+- Uses
+  - Group independent functions that solve a final problem under a façade 
+- To take into consideration
+    - In this case, the user may think we can use abstraction for all the calculators but this is one case.
+      Maybe the facade gathers services that are not that closely related and abstractions are not of use, that is why
+      it was taken into consideration for this example.
+    - Another example that I liked: https://www.baeldung.com/java-facade-pattern
