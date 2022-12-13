@@ -230,4 +230,12 @@ For this example, the State Machine for the Vending Machine would be:
       I need it to do with the prices and the names, and the only thing left for the decorators is to return their own
       name and price.
     - The reason the base of the pizza is last is that its constructor It is not pushed to have any arguments.
-    - 
+
+
+- ### Proxy Pattern
+
+![alt text](assets/proxyPattern.png)
+
+- Uses
+  - Placeholder to control access to original object
+- To take into consideration
