@@ -237,14 +237,20 @@ For this example, the State Machine for the Vending Machine would be:
 ![alt text](assets/proxyPattern.png)
 
 - Uses
-  - Placeholder to control access to original object
+    - Placeholder to control access to original object
 - To take into consideration
 - ### Proxy Pattern
 
 ![alt text](assets/flyweightPattern.png)
 
 - Uses
-  - Reduce memory footprint by sharing common parts
+    - Reduce memory footprint by sharing common parts
 - To take into consideration
-  - Make sure the flyweight objects are immutables 
-  - Flyweight Factory is advised to access/add objects
+    - Make sure the flyweight objects are immutables
+    - Flyweight Factory is advised to access/add objects
+
+![alt text](assets/compositePattern.png)
+
+- Uses
+    - Compose objects in a tree structure
+- To take into consideration
