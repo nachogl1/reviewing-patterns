@@ -254,3 +254,10 @@ For this example, the State Machine for the Vending Machine would be:
 - Uses
     - Compose objects in a tree structure
 - To take into consideration
+
+![alt text](assets/bridgePattern.png)
+
+- Uses
+  - Decouple abstractions from implementation so you can mix them 
+- To take into consideration
+  - Maybe we can think of using Artist/Book as an inner class. With a builder (?) 
