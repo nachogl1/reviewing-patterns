@@ -258,6 +258,16 @@ For this example, the State Machine for the Vending Machine would be:
 ![alt text](assets/bridgePattern.png)
 
 - Uses
-  - Decouple abstractions from implementation so you can mix them 
+    - Decouple abstractions from implementation so you can mix them
 - To take into consideration
-  - Maybe we can think of using Artist/Book as an inner class. With a builder (?) 
+    - Maybe we can think of using Artist/Book as an inner class. With a builder (?)
+
+![alt text](assets/adapterPattern.png)
+
+- Uses
+    - Adapt two incompatible entities
+- To take into consideration
+    - Thi idea is that we have 2 certain DB connections (A and B) that follow a contract design by us.
+      The problem now is that we want to use a thrid connection that does not follow that contract but we dont want
+      to change our code to adapt to it. So what we do, we create a adapter that allows to plug in the external
+      connection (C).
