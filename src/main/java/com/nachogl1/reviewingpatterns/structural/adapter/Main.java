@@ -10,7 +10,7 @@ public class Main {
         ConnectionCImpl conC = new ConnectionCImpl();
         ConnectionCImplAdapter adapter = new ConnectionCImplAdapter(conC);
 
-        Service service = new Service();
+        DBService service = new DBService();
 
         service.connectToDB(conA);
         service.connectToDB(adapter);
