@@ -1,9 +1,12 @@
 package com.nachogl1.reviewingpatterns.behavioural.command.kata.command;
 
+import java.time.LocalDate;
+
 public class WithdrawCommand extends Command {
 
-    public WithdrawCommand(int amount) {
-        super(amount);
+
+    public WithdrawCommand(int amount, LocalDate date) {
+        super(amount, date);
     }
 
     @Override

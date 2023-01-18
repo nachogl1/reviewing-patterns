@@ -4,9 +4,9 @@ import java.time.LocalDate;
 
 public class TransactionFormatter implements Formatter {
     @Override
-    public String format(int totalBalance) {
+    public String formatForDate(int totalBalance, LocalDate date) {
         StringBuilder summary = new StringBuilder();
-        summary.append(String.format("Your total balance is %d $", totalBalance));
+        summary.append(String.format("Your total balance by %s is %d $", date.toString(), totalBalance));
         return summary.toString();
     }
 }

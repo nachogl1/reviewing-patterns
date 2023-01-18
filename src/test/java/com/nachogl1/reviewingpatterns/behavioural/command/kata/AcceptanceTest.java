@@ -1,5 +1,6 @@
 package com.nachogl1.reviewingpatterns.behavioural.command.kata;
 
+import com.nachogl1.reviewingpatterns.behavioural.command.kata.clock.CoolClock;
 import com.nachogl1.reviewingpatterns.behavioural.command.kata.display.Display;
 import com.nachogl1.reviewingpatterns.behavioural.command.kata.executor.Executor;
 import com.nachogl1.reviewingpatterns.behavioural.command.kata.executor.TransactionExecutor;
@@ -9,18 +10,28 @@ import com.nachogl1.reviewingpatterns.behavioural.command.kata.repos.Transaction
 import com.nachogl1.reviewingpatterns.behavioural.command.kata.repos.TransactionRepositoryInMem;
 import org.junit.jupiter.api.Test;
 
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.verify;
+import java.time.LocalDate;
+
+import static org.mockito.Mockito.*;
 
 public class AcceptanceTest {
 
     @Test
     void returnCorrectDisplayWhenInit() {
         Display displayMock = mock(Display.class);
-        Executor executorMock = new TransactionExecutor();
-        Formatter formatterMock = new TransactionFormatter();
-        TransactionRepository repoMock = new TransactionRepositoryInMem();
-        CoolBankAccount account = new CoolBankAccount(repoMock, executorMock, displayMock, formatterMock);
+        CoolClock clockMock = mock(CoolClock.class);
+        Executor executor = new TransactionExecutor();
+        Formatter formatter = new TransactionFormatter();
+        TransactionRepository repo = new TransactionRepositoryInMem();
+        CoolBankAccount account = new CoolBankAccount(repo, executor, displayMock, formatter, clockMock);
+        when(clockMock.now())
+                .thenReturn(LocalDate.of(2020, 1, 10))
+                .thenReturn(LocalDate.of(2020, 1, 15))
+                .thenReturn(LocalDate.of(2020, 1, 16))
+                .thenReturn(LocalDate.of(2020, 1, 17))
+                .thenReturn(LocalDate.of(2020, 1, 20))
+                .thenReturn(LocalDate.of(2021, 1, 10))
+                .thenReturn(LocalDate.of(2021, 1, 10));
 
         account.deposit(10000);
         account.deposit(10000);
@@ -30,6 +41,6 @@ public class AcceptanceTest {
         account.deposit(500);
 
         account.getSummary();
-        verify(displayMock).display("Your total balance is 14800 $");
+        verify(displayMock).display("Your total balance by 2021-01-10 is 14800 $");
     }
 }

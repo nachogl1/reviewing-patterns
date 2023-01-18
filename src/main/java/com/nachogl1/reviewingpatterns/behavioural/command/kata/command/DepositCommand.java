@@ -1,10 +1,12 @@
 package com.nachogl1.reviewingpatterns.behavioural.command.kata.command;
 
+import java.time.LocalDate;
+
 public class DepositCommand extends Command {
 
 
-    public DepositCommand(int amount) {
-        super(amount);
+    public DepositCommand(int amount, LocalDate date) {
+        super(amount, date);
     }
 
     @Override
