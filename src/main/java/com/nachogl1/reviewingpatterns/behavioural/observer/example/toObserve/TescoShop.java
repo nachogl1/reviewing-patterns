@@ -1,8 +1,6 @@
-package com.nachogl1.reviewingpatterns.behavioural.observer.toObserve;
+package com.nachogl1.reviewingpatterns.behavioural.observer.example.toObserve;
 
-import com.nachogl1.reviewingpatterns.behavioural.observer.observers.Observer;
-
-import java.util.List;
+import com.nachogl1.reviewingpatterns.behavioural.observer.example.observers.Observer;
 
 public class TescoShop extends SubjectToObserved {
 

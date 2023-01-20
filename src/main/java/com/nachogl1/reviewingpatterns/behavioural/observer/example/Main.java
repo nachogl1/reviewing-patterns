@@ -1,13 +1,12 @@
-package com.nachogl1.reviewingpatterns.behavioural.observer;
+package com.nachogl1.reviewingpatterns.behavioural.observer.example;
 
-import com.nachogl1.reviewingpatterns.behavioural.observer.observers.User;
-import com.nachogl1.reviewingpatterns.behavioural.observer.toObserve.ArgosShop;
-import com.nachogl1.reviewingpatterns.behavioural.observer.toObserve.SansburyShop;
-import com.nachogl1.reviewingpatterns.behavioural.observer.toObserve.SubjectToObserved;
-import com.nachogl1.reviewingpatterns.behavioural.observer.toObserve.TescoShop;
+import com.nachogl1.reviewingpatterns.behavioural.observer.example.observers.User;
+import com.nachogl1.reviewingpatterns.behavioural.observer.example.toObserve.ArgosShop;
+import com.nachogl1.reviewingpatterns.behavioural.observer.example.toObserve.SansburyShop;
+import com.nachogl1.reviewingpatterns.behavioural.observer.example.toObserve.SubjectToObserved;
+import com.nachogl1.reviewingpatterns.behavioural.observer.example.toObserve.TescoShop;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Main {

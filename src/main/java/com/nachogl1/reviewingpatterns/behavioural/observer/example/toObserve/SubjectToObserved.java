@@ -1,6 +1,6 @@
-package com.nachogl1.reviewingpatterns.behavioural.observer.toObserve;
+package com.nachogl1.reviewingpatterns.behavioural.observer.example.toObserve;
 
-import com.nachogl1.reviewingpatterns.behavioural.observer.observers.Observer;
+import com.nachogl1.reviewingpatterns.behavioural.observer.example.observers.Observer;
 
 import java.util.ArrayList;
 import java.util.List;

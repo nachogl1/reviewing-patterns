@@ -1,6 +1,6 @@
-package com.nachogl1.reviewingpatterns.behavioural.observer.observers;
+package com.nachogl1.reviewingpatterns.behavioural.observer.example.observers;
 
-import com.nachogl1.reviewingpatterns.behavioural.observer.toObserve.SubjectToObserved;
+import com.nachogl1.reviewingpatterns.behavioural.observer.example.toObserve.SubjectToObserved;
 
 import java.util.UUID;
 
