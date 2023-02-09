@@ -1,8 +1,8 @@
-package com.nachogl1.reviewingpatterns.behavioural.visitor.visitor;
+package com.nachogl1.reviewingpatterns.behavioural.visitor.example.visitor;
 
-import com.nachogl1.reviewingpatterns.behavioural.visitor.client.Bank;
-import com.nachogl1.reviewingpatterns.behavioural.visitor.client.Client;
-import com.nachogl1.reviewingpatterns.behavioural.visitor.client.Restaurant;
+import com.nachogl1.reviewingpatterns.behavioural.visitor.example.client.Bank;
+import com.nachogl1.reviewingpatterns.behavioural.visitor.example.client.Client;
+import com.nachogl1.reviewingpatterns.behavioural.visitor.example.client.Restaurant;
 
 import java.util.List;
 
