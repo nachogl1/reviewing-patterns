@@ -1,6 +1,6 @@
-package com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.handlers;
+package com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.example.handlers;
 
-import com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.DatabaseConnection;
+import com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.example.DatabaseConnection;
 
 public class ValidPasswordHandler extends Handler {
     private DatabaseConnection connection;

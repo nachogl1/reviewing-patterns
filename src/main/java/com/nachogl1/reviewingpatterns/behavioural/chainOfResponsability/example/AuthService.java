@@ -1,6 +1,6 @@
-package com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability;
+package com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.example;
 
-import com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.handlers.Handler;
+import com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.example.handlers.Handler;
 
 public class AuthService {
     private final Handler handler;

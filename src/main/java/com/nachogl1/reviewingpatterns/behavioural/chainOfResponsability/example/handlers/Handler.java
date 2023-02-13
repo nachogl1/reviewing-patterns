@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.handlers;
+package com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.example.handlers;
 
 public abstract class Handler {
     private Handler handler;

@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability;
+package com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.example;
 
 public class DatabaseConnection {
     public boolean isValidUser(String username) {

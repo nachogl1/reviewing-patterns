@@ -1,9 +1,9 @@
-package com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability;
+package com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.example;
 
-import com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.handlers.Handler;
-import com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.handlers.RoleCheckerHandler;
-import com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.handlers.UserExistsHandler;
-import com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.handlers.ValidPasswordHandler;
+import com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.example.handlers.Handler;
+import com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.example.handlers.RoleCheckerHandler;
+import com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.example.handlers.UserExistsHandler;
+import com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.example.handlers.ValidPasswordHandler;
 
 public class Main {
 
