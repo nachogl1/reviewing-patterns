@@ -1,6 +1,6 @@
-package com.nachogl1.reviewingpatterns.behavioural.state.states;
+package com.nachogl1.reviewingpatterns.behavioural.state.example.states;
 
-import com.nachogl1.reviewingpatterns.behavioural.state.VendingMachine;
+import com.nachogl1.reviewingpatterns.behavioural.state.example.VendingMachine;
 
 import java.math.BigDecimal;
 
