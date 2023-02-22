@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.behavioural.memento;
+package com.nachogl1.reviewingpatterns.behavioural.memento.example;
 
 public class TextArea implements Editable {
 

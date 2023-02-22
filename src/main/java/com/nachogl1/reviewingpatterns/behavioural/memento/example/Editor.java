@@ -1,6 +1,6 @@
-package com.nachogl1.reviewingpatterns.behavioural.memento;
+package com.nachogl1.reviewingpatterns.behavioural.memento.example;
 
-import com.nachogl1.reviewingpatterns.behavioural.memento.TextArea.Memento;
+import com.nachogl1.reviewingpatterns.behavioural.memento.example.TextArea.Memento;
 
 import java.util.Stack;
 
