@@ -4,18 +4,22 @@ depending on the target. An example would be to send customise messages dependin
 
 # Cool Virtual Post Service
 
-Your service targets different type of clients:
-- Individual
-- Private Institutions
-- Public Institutions
+We provide a personalized and engaging experience for each of our clients.
+ Our service targets different types of clients, including individuals, private institutions, public institutions, and now, international entities.
 
-Your company create customised Christmas messages depending on the type of client receiving the message.
-Enclosed in this message, you attach also a discount coupon that allows that entity to get better prices for
-different items in your catalogue.
+As we approach the holiday season, we want to create customized Christmas messages that are tailored to each client.
+Along with the message, we'll also attach a discount coupon that can be used for a variety of items in our catalogue.
 
-- Individual: 'Dear <nameOfCustomer>, We hope you and your family are enjoying your holidays, this is a 5% discount coupon'
-- Private Institutions: 'Dear <nameOfCompany>, You have been a loyal client of this service, and we want to award you with this 5% discount coupon'
-- Public Institutions: 'Dear <nameOfInstitution>, please find kindly attached a 10% discount coupon'
+For individuals, we'll use a warm and friendly tone to wish them a happy holiday season and provide them with a 5%
+discount coupon. For private institutions, we'll acknowledge their loyalty to our service and award them with a 5%
+discount coupon. For public institutions, we'll express our appreciation and provide them with a generous 10% discount coupon.
 
-Design a system that will adapt for these requirements and will also embrace adding a new type of client called
-- International Entity: 'Dear <nameOfEntity>, thanks for trusting our services. This is a 3% discount coupon on your next purchase'
+But we don't stop there. We want to be able to adapt to changing client needs, which is why we're looking to add a new
+type of client to our system: international entities. For them, we'll express our gratitude for trusting our services
+and provide them with a 3% discount coupon on their next purchase.
+
+To achieve this level of customization, we need a system that can adapt to different types of clients and their unique
+ needs. That's where the Visitor Pattern comes in. By implementing this pattern, we can easily add new types of clients
+ to our system and customize their experience with our service.
+
+Are you ready to take on the challenge and create a seamless and engaging experience for all our clients?

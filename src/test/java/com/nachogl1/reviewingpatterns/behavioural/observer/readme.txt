@@ -4,17 +4,22 @@
 
 # Cool Cars
 
-Our company has developed a new software module that updates the main software core of the cars we manufacture.
-The cars are equipped with technology that allows them to be connected to internet in order to receive new updates,
-this new updates are basics strings with the version of the new update.
+We are excited to introduce you to our latest software module for our line of amazing cars - Cool Cars.
 
-The company currently has 3 different car models:
+Our cars are equipped with cutting-edge technology that allows them to connect to the internet and receive regular
+software updates. These updates come in the form of basic strings that indicate the version of the new software.
 
-- The Cool
-- The Nice
-- The Superb
+Currently, we have three different car models - The Cool, The Nice, and The Superb. We are looking to develop a new
+ update mechanism that will notify all cars of the new software version when the main factory triggers an update,
+ specifically when we release the new version V10.0.1.
 
-Define a model in which when the main factory triggers the update V10.0.1 all the cars observing
-for updates are notified of it.
+Your challenge is to define a model that will allow all cars connected to the internet to be notified of this new
+ update, and to print the message "Car <carName> received new update V10.0.1" for each car that receives the update.
+ This will ensure that all our customers are up-to-date with the latest software and have the best possible driving experience.
 
-And the cars will print "Car <carName> received new update V10.0.1".
+We look forward to seeing your solution and making Cool Cars the best it can be!
+
+
+
+
+

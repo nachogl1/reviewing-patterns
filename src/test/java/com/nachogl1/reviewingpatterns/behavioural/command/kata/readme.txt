@@ -7,22 +7,28 @@ have no use (in my solution)
 
 # Cool Bank
 
-Implement a simple personal bank account system that accepts Deposits and Withdrawals. Everytime the system starts it
-will process all the transactions and update you of the current status.
+Develop a simple yet powerful bank account system that accepts deposits and withdrawals, so you can keep track of your
+transactions and stay on top of your finances.
 
-The current transactions (IN ORDER) are :
+With our system, you can easily deposit funds and withdraw cash whenever you need it. Plus, every time you start the
+system, it will process all of your transactions and provide you with an up-to-date balance.
 
-Date        Trx type    Amount
-2020-01-10  Deposit     10000 $
-2020-01-15  Deposit     10000 $
-2020-01-16  Withdraw     5400 $
-2020-01-17  Withdraw      100 $
-2020-01-20  Withdraw      200 $
-2021-01-10  Deposit       500 $
+Here are the current transactions, in order:
 
-Everytime the system starts, it needs to print the following message.
-Note the type of amount is not relevant.
-You may want to ignore dates if you use the right data structure, the aim is to understand the pattern not to get
-the perfect system.
+Date Transaction Type Amount
+2020-01-10 Deposit 10000 $
+2020-01-15 Deposit 10000 $
+2020-01-16 Withdraw 5400 $
+2020-01-17 Withdraw 100 $
+2020-01-20 Withdraw 200 $
+2021-01-10 Deposit 500 $
 
-Your total balance by 2021-01-10 is 14800 $
+When you start the system, you'll see the following message:
+
+"Welcome back! Your total balance as of 2021-01-10 is 14800 $."
+
+With our easy-to-use system and helpful features, you'll be able to manage your finances with confidence and ease.
+So why wait? Try Cool Bank today and take control of your money!
+
+Notes:
+ - The type of 'amount' is not relevant.
