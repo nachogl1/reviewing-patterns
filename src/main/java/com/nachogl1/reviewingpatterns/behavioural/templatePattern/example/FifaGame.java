@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.behavioural.templatePattern;
+package com.nachogl1.reviewingpatterns.behavioural.templatePattern.example;
 
 public class FifaGame extends Game {
     private static final String GAME_NAME = "FIFA";

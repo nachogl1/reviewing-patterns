@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.behavioural.templatePattern;
+package com.nachogl1.reviewingpatterns.behavioural.templatePattern.example;
 
 public class StreetFightGame extends Game {
     private static final String GAME_NAME = "STREET_FIGHT";

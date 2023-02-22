@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.behavioural.templatePattern;
+package com.nachogl1.reviewingpatterns.behavioural.templatePattern.example;
 
 import java.util.Arrays;
 import java.util.List;

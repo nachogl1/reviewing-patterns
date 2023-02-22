@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.behavioural.templatePattern;
+package com.nachogl1.reviewingpatterns.behavioural.templatePattern.example;
 
 public abstract class Game {
     public void play() {
