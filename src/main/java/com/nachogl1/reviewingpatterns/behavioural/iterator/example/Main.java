@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.behavioural.iterator;
+package com.nachogl1.reviewingpatterns.behavioural.iterator.example;
 
 public class Main {
     public static void main(String[] args) {
