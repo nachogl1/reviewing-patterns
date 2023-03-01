@@ -1,14 +1,14 @@
-package com.nachogl1.reviewingpatterns.behavioural.mediator.participants;
+package com.nachogl1.reviewingpatterns.behavioural.mediator.example.participants;
 
-import com.nachogl1.reviewingpatterns.behavioural.mediator.mediator.Mediator;
+import com.nachogl1.reviewingpatterns.behavioural.mediator.example.mediator.Mediator;
 
 public abstract class Participant {
-    protected final Mediator mediator;
+    protected final Mediator room;
     protected final String name;
 
-    public Participant(String name, Mediator mediator) {
+    public Participant(String name, Mediator room) {
         this.name = name;
-        this.mediator = mediator;
+        this.room = room;
     }
 
     public void notify(String message, Participant inputParticipant) {

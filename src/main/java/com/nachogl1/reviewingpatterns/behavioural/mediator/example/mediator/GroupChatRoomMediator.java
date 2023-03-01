@@ -1,6 +1,6 @@
-package com.nachogl1.reviewingpatterns.behavioural.mediator.mediator;
+package com.nachogl1.reviewingpatterns.behavioural.mediator.example.mediator;
 
-import com.nachogl1.reviewingpatterns.behavioural.mediator.participants.Participant;
+import com.nachogl1.reviewingpatterns.behavioural.mediator.example.participants.Participant;
 
 import java.util.ArrayList;
 import java.util.List;

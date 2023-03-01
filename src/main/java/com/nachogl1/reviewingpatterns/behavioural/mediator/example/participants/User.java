@@ -1,6 +1,6 @@
-package com.nachogl1.reviewingpatterns.behavioural.mediator.participants;
+package com.nachogl1.reviewingpatterns.behavioural.mediator.example.participants;
 
-import com.nachogl1.reviewingpatterns.behavioural.mediator.mediator.Mediator;
+import com.nachogl1.reviewingpatterns.behavioural.mediator.example.mediator.Mediator;
 
 public class User extends Participant {
 
@@ -11,7 +11,7 @@ public class User extends Participant {
 
     @Override
     public void send(String message) {
-        mediator.sendGroupMessage(message, this);
+        room.sendGroupMessage(message, this);
     }
 
 

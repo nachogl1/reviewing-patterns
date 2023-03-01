@@ -1,7 +1,7 @@
-package com.nachogl1.reviewingpatterns.behavioural.mediator;
+package com.nachogl1.reviewingpatterns.behavioural.mediator.example;
 
-import com.nachogl1.reviewingpatterns.behavioural.mediator.mediator.GroupChatRoomMediator;
-import com.nachogl1.reviewingpatterns.behavioural.mediator.participants.User;
+import com.nachogl1.reviewingpatterns.behavioural.mediator.example.mediator.GroupChatRoomMediator;
+import com.nachogl1.reviewingpatterns.behavioural.mediator.example.participants.User;
 
 public class Main {
     public static void main(String[] args) {
