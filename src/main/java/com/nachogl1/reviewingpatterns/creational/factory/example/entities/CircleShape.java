@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.creational.factory.entities;
+package com.nachogl1.reviewingpatterns.creational.factory.example.entities;
 
 public class CircleShape implements Shape{
     @Override

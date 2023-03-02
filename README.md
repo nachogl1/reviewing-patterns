@@ -79,6 +79,19 @@ Repo created to review different software patterns
 - To take into consideration
     - I used different methods instead of a switch to control the flow what to choose. I guess it depends on the
       context that this may be the best option.
+    - The Factory Pattern and Abstract Factory Pattern are both creational design patterns that provide a way to
+    - create objects without exposing the creation logic to the client. However, there are some differences between the
+      two patterns. The main difference is that the Factory Pattern deals with creating a single product or family of related
+      products, while the Abstract Factory Pattern deals with creating families of related products. In other words, the Factory
+      Pattern creates one type of object while the Abstract Factory Pattern creates a family of related objects.
+      Another difference is that the Factory Pattern uses a single method or class to create objects, while the Abstract
+      Factory Pattern uses a set of related factory methods or classes to create families of related objects. In other
+      words, the Factory Pattern has one factory class for each type of product, while the Abstract Factory Pattern has one
+      factory class for each family of related products.
+      Finally, the Factory Pattern is simpler and easier to implement, while the Abstract Factory Pattern is more
+      complex and more flexible. The Factory Pattern is suitable for small projects that only require the creation of a few types of
+      objects, while the Abstract Factory Pattern is suitable for larger projects that require the creation of multiple
+      families of related objects.
 
 ## BEHAVIOURAL PATTERNS
 

@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.creational.factory.factory;
+package com.nachogl1.reviewingpatterns.creational.factory.example.factory;
 
 public enum ShapeType {
 
