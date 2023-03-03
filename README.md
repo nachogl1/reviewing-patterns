@@ -44,6 +44,7 @@ Repo created to review different software patterns
     - Uses **factory methods** to instantiate objects instead of calling the exact class itself using new.
     - Lets think is a mix of Template Method and Abstract Factory (because there is an interface that defines how to
       create) and Factory (cause instead of creating a family, it creates only one object)
+    - more in aboutFactories.txt
 
 - To take into consideration
     - We give the responsibility of instantiation to other class rather than the object.
@@ -60,6 +61,7 @@ Repo created to review different software patterns
     - Use of static on the make method in the factory, static modifier makes functionality difficult to test/mock
     - Use of switch to divert the flow. Polymorphism is a solution for this problem.
     - https://stackoverflow.com/questions/13029261/design-patterns-factory-vs-factory-method-vs-abstract-factory
+    - more in aboutFactories.txt
 
 ### Prototype  Pattern
 
@@ -80,6 +82,7 @@ Repo created to review different software patterns
 
 - Uses
     - Allows you to create different factories to create items of different families.
+    - more in aboutFactories.txt
 - To take into consideration
     - I used different methods instead of a switch to control the flow what to choose. I guess it depends on the
       context that this may be the best option.

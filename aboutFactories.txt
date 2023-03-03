@@ -1,0 +1,9 @@
+We have three types of factories: Factory Template Method, Abstract Factory, and Factory.
+
+Abstract Factory handles the creation of a family of objects.
+
+Factory and Factory Method handles the creation of one object but in different ways.
+
+In Factory, you have the creation logic in the same factory for all the objects.
+In Factory Method, you have a base class that defines how a factory works, and different implementations of
+ this factory that create one object, with the logic staying inside that class.
