@@ -45,6 +45,7 @@ Repo created to review different software patterns
 
 - To take into consideration
     - We give the responsibility of instantiation to other class rather than the object.
+    - https://stackoverflow.com/questions/13029261/design-patterns-factory-vs-factory-method-vs-abstract-factory
 
 ### Factory  Pattern
 
@@ -56,6 +57,7 @@ Repo created to review different software patterns
 - To take into consideration
     - Use of static on the make method in the factory, static modifier makes functionality difficult to test/mock
     - Use of switch to divert the flow. Polymorphism is a solution for this problem.
+    - https://stackoverflow.com/questions/13029261/design-patterns-factory-vs-factory-method-vs-abstract-factory
 
 ### Prototype  Pattern
 
@@ -92,6 +94,7 @@ Repo created to review different software patterns
       complex and more flexible. The Factory Pattern is suitable for small projects that only require the creation of a few types of
       objects, while the Abstract Factory Pattern is suitable for larger projects that require the creation of multiple
       families of related objects.
+    - https://stackoverflow.com/questions/13029261/design-patterns-factory-vs-factory-method-vs-abstract-factory
 
 ## BEHAVIOURAL PATTERNS
 
