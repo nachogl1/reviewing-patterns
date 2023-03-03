@@ -8,4 +8,13 @@ public class CarFactory {
             default -> throw new IllegalArgumentException(); //avoid by using enums?
         };
     }
+
+    /*You could also go with
+
+    public static Car createHondaCar(){
+        return new HondaCar();
+    }
+    public static Car createVolvoCar(){
+        return new VolvoCar();
+    }*/
 }
