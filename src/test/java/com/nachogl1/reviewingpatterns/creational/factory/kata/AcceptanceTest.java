@@ -9,7 +9,7 @@ public class AcceptanceTest {
     void createHondaCivicUsingFactory() {
 
         Car expectedCar = new HondaCar("Civic", 2020);
-        Car honda = CarFactory.create("Honda", "Civic", 2020);
+        Car honda = CarFactory.createHondaCar("Civic", 2020);
         Assertions.assertEquals(expectedCar, honda);
 
     }

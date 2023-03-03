@@ -1,20 +1,12 @@
 package com.nachogl1.reviewingpatterns.creational.factory.kata;
 
 public class CarFactory {
-    public static Car create(String manufacturer, String model, int year) {
-        return switch (manufacturer) {
-            case "Honda" -> new HondaCar(model, year);
-            case "Volvo" -> new VolvoCar(model, year);
-            default -> throw new IllegalArgumentException(); //avoid by using enums?
-        };
+
+    public static Car createHondaCar(String model, int year) {
+        return new HondaCar(model, year);
     }
 
-    /*You could also go with
-
-    public static Car createHondaCar(){
-        return new HondaCar();
+    public static Car createVolvoCar(String model, int year) {
+        return new VolvoCar(model, year);
     }
-    public static Car createVolvoCar(){
-        return new VolvoCar();
-    }*/
 }
