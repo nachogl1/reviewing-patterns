@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.creational.factoryMethod.someEntities;
+package com.nachogl1.reviewingpatterns.creational.factoryMethod.example.someEntities;
 
 public class DieselCar implements Car{
     @Override
