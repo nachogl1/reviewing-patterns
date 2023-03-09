@@ -1,6 +1,6 @@
-package com.nachogl1.reviewingpatterns.creational.abstractFactory.someEntities.modernStyle;
+package com.nachogl1.reviewingpatterns.creational.abstractFactory.example.someEntities.modernStyle;
 
-import com.nachogl1.reviewingpatterns.creational.abstractFactory.someEntities.Furniture;
+import com.nachogl1.reviewingpatterns.creational.abstractFactory.example.someEntities.Furniture;
 
 public class ModernStyleChair implements Furniture {
     @Override

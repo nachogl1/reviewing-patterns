@@ -1,6 +1,6 @@
-package com.nachogl1.reviewingpatterns.creational.abstractFactory.someEntities.victorianStyle;
+package com.nachogl1.reviewingpatterns.creational.abstractFactory.example.someEntities.victorianStyle;
 
-import com.nachogl1.reviewingpatterns.creational.abstractFactory.someEntities.Furniture;
+import com.nachogl1.reviewingpatterns.creational.abstractFactory.example.someEntities.Furniture;
 
 public class VictorianStyleChair implements Furniture {
     @Override

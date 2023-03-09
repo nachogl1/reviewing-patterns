@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.creational.builder;
+package com.nachogl1.reviewingpatterns.creational.builder.example;
 
 public class InstanceNeedsBuilder {
 

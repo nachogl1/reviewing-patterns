@@ -1,8 +1,8 @@
-package com.nachogl1.reviewingpatterns.creational.abstractFactory.factories;
+package com.nachogl1.reviewingpatterns.creational.abstractFactory.example.factories;
 
-import com.nachogl1.reviewingpatterns.creational.abstractFactory.someEntities.Furniture;
-import com.nachogl1.reviewingpatterns.creational.abstractFactory.someEntities.modernStyle.ModernStyleChair;
-import com.nachogl1.reviewingpatterns.creational.abstractFactory.someEntities.modernStyle.ModernStyleTable;
+import com.nachogl1.reviewingpatterns.creational.abstractFactory.example.someEntities.Furniture;
+import com.nachogl1.reviewingpatterns.creational.abstractFactory.example.someEntities.modernStyle.ModernStyleChair;
+import com.nachogl1.reviewingpatterns.creational.abstractFactory.example.someEntities.modernStyle.ModernStyleTable;
 
 public class ModernStyleFurnitureFactory extends FurnitureFactory{
     @Override
