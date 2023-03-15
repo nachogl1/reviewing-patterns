@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.creational.singleton;
+package com.nachogl1.reviewingpatterns.creational.singleton.example;
 
 public class LogManager {
 
