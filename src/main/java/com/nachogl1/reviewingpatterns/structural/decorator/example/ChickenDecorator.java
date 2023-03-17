@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.structural.decorator;
+package com.nachogl1.reviewingpatterns.structural.decorator.example;
 
 public class ChickenDecorator extends PizzaDecorator {
     public ChickenDecorator(Pizza pizza) {

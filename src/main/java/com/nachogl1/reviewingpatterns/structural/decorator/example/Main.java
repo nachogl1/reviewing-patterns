@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.structural.decorator;
+package com.nachogl1.reviewingpatterns.structural.decorator.example;
 
 public class Main {
     public static void main(String[] args){

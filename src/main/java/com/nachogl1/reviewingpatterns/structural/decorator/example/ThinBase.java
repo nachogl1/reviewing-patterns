@@ -1,6 +1,6 @@
-package com.nachogl1.reviewingpatterns.structural.decorator;
+package com.nachogl1.reviewingpatterns.structural.decorator.example;
 
-public class ThickBase extends Pizza{
+public class ThinBase extends Pizza {
 
     @Override
     public String name() {
@@ -11,4 +11,5 @@ public class ThickBase extends Pizza{
     public int costs() {
         return 10;
     }
+
 }
