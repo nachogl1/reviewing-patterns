@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.structural.flyweight;
+package com.nachogl1.reviewingpatterns.structural.flyweight.example;
 
 import java.util.HashMap;
 import java.util.Map;

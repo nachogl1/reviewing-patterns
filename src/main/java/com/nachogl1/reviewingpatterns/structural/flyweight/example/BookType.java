@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.structural.flyweight;
+package com.nachogl1.reviewingpatterns.structural.flyweight.example;
 
 public final class BookType {
     private final String type;

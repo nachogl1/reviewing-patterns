@@ -1,25 +1,24 @@
-package com.nachogl1.reviewingpatterns.structural.flyweight;
+package com.nachogl1.reviewingpatterns.structural.flyweight.example;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SuccessfulCaseMain {
+public class WrongCaseMain {
 
-    private static List<FlyweightBook> books = new ArrayList<>();
+    private static List<BookNoFlyweight> books = new ArrayList<>();
 
+    //Do not run this, it will take load of resources, careful
     public static void main(String[] args) {
-        BookType comedyType = BookTypeFactory.getBookType("Comedy-USA", "USA-Books", "Rare, Long");
         long startTime;
         long endTime;
 
         for (int i = 0; i < 10000000; i++) {
-            FlyweightBook book = new FlyweightBook("defaultname", 10, comedyType);
+            BookNoFlyweight book = new BookNoFlyweight("defaultname", 10, "comedy", "USA-Books", "Rare");
             books.add(book);
         }
 
         startTime = System.currentTimeMillis();
-
-        for (FlyweightBook book : books) {
+        for (BookNoFlyweight book : books) {
             System.out.println(book);
         }
         endTime = System.currentTimeMillis();
