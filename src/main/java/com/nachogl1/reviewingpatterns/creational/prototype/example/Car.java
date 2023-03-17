@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.creational.prototype;
+package com.nachogl1.reviewingpatterns.creational.prototype.example;
 
 public class Car implements Prototype{
     private String name;
