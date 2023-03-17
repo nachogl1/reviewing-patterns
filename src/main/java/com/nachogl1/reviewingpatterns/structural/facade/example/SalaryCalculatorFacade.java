@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.structural.facade;
+package com.nachogl1.reviewingpatterns.structural.facade.example;
 
 public class SalaryCalculatorFacade {
 
