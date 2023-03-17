@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.structural.proxy;
+package com.nachogl1.reviewingpatterns.structural.proxy.example;
 
 public class RealImage implements Image {
     private String filepath;
