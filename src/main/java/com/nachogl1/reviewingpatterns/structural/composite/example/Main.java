@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.structural.composite;
+package com.nachogl1.reviewingpatterns.structural.composite.example;
 
 public class Main {
 

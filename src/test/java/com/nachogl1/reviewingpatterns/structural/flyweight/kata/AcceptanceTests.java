@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.structural.flyweight;
+package com.nachogl1.reviewingpatterns.structural.flyweight.kata;
 
 import com.nachogl1.reviewingpatterns.structural.flyweight.kata.AudioResourceManager;
 import com.nachogl1.reviewingpatterns.structural.flyweight.kata.AudioType;
