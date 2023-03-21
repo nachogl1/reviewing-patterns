@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.behavioural.command.example.account;
+package com.nachogl1.reviewingpatterns.behavioural.command.kata.example.account;
 
 public abstract class Account {
     protected int amount;

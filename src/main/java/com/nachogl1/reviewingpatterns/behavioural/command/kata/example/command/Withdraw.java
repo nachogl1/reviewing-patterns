@@ -1,6 +1,6 @@
-package com.nachogl1.reviewingpatterns.behavioural.command.example.command;
+package com.nachogl1.reviewingpatterns.behavioural.command.kata.example.command;
 
-import com.nachogl1.reviewingpatterns.behavioural.command.example.account.Account;
+import com.nachogl1.reviewingpatterns.behavioural.command.kata.example.account.Account;
 
 public class Withdraw implements Command {
     private int amount;

@@ -1,12 +1,12 @@
 package com.nachogl1.reviewingpatterns.behavioural.command.kata;
 
+import com.nachogl1.reviewingpatterns.behavioural.command.kata.command.WithdrawCommand;
+import com.nachogl1.reviewingpatterns.behavioural.command.kata.display.Display;
+import com.nachogl1.reviewingpatterns.behavioural.command.kata.formatter.Formatter;
 import com.nachogl1.reviewingpatterns.behavioural.command.kata.clock.CoolClock;
 import com.nachogl1.reviewingpatterns.behavioural.command.kata.command.Command;
 import com.nachogl1.reviewingpatterns.behavioural.command.kata.command.DepositCommand;
-import com.nachogl1.reviewingpatterns.behavioural.command.kata.command.WithdrawCommand;
-import com.nachogl1.reviewingpatterns.behavioural.command.kata.display.Display;
 import com.nachogl1.reviewingpatterns.behavioural.command.kata.executor.Executor;
-import com.nachogl1.reviewingpatterns.behavioural.command.kata.formatter.Formatter;
 import com.nachogl1.reviewingpatterns.behavioural.command.kata.repos.TransactionRepository;
 
 import java.util.Collection;

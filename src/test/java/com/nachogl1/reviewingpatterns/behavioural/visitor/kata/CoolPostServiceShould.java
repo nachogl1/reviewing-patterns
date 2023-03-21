@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.behavioural.visitor;
+package com.nachogl1.reviewingpatterns.behavioural.visitor.kata;
 
 import com.nachogl1.reviewingpatterns.behavioural.visitor.kata.client.*;
 import com.nachogl1.reviewingpatterns.behavioural.visitor.kata.plugins.MessageService;

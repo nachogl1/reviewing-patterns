@@ -1,12 +1,12 @@
-package com.nachogl1.reviewingpatterns.behavioural.command.example;
+package com.nachogl1.reviewingpatterns.behavioural.command.kata.example;
 
-import com.nachogl1.reviewingpatterns.behavioural.command.example.account.Customer;
-import com.nachogl1.reviewingpatterns.behavioural.command.example.account.JoinGBPAccount;
-import com.nachogl1.reviewingpatterns.behavioural.command.example.account.PersonalGBPAccount;
-import com.nachogl1.reviewingpatterns.behavioural.command.example.command.Command;
-import com.nachogl1.reviewingpatterns.behavioural.command.example.command.Deposit;
-import com.nachogl1.reviewingpatterns.behavioural.command.example.command.UserCommandsExecutor;
-import com.nachogl1.reviewingpatterns.behavioural.command.example.command.Withdraw;
+import com.nachogl1.reviewingpatterns.behavioural.command.kata.example.account.Customer;
+import com.nachogl1.reviewingpatterns.behavioural.command.kata.example.account.JoinGBPAccount;
+import com.nachogl1.reviewingpatterns.behavioural.command.kata.example.account.PersonalGBPAccount;
+import com.nachogl1.reviewingpatterns.behavioural.command.kata.example.command.Command;
+import com.nachogl1.reviewingpatterns.behavioural.command.kata.example.command.Deposit;
+import com.nachogl1.reviewingpatterns.behavioural.command.kata.example.command.UserCommandsExecutor;
+import com.nachogl1.reviewingpatterns.behavioural.command.kata.example.command.Withdraw;
 
 import java.util.ArrayList;
 import java.util.List;

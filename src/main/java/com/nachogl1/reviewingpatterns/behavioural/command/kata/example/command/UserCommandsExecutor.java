@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.behavioural.command.example.command;
+package com.nachogl1.reviewingpatterns.behavioural.command.kata.example.command;
 
 import java.util.ArrayList;
 import java.util.List;

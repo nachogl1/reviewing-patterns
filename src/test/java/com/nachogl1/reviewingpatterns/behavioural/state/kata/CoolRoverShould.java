@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.behavioural.state;
+package com.nachogl1.reviewingpatterns.behavioural.state.kata;
 
 import com.nachogl1.reviewingpatterns.behavioural.state.kata.CoolRover;
 import org.junit.jupiter.api.BeforeEach;

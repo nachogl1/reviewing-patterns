@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability;
+package com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.kata;
 
 import com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.kata.CoolAuthService;
 import com.nachogl1.reviewingpatterns.behavioural.chainOfResponsability.kata.DBConn;
