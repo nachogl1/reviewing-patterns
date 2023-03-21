@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.structural.bridge;
+package com.nachogl1.reviewingpatterns.structural.bridge.example;
 
 public class DetailedView extends ViewStyle {
     public DetailedView(Resource resource) {
