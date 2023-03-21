@@ -1,8 +1,8 @@
-package com.nachogl1.reviewingpatterns.structural.adapter;
+package com.nachogl1.reviewingpatterns.structural.adapter.example;
 
-import com.nachogl1.reviewingpatterns.structural.adapter.newConnections.ConnectionCImpl;
-import com.nachogl1.reviewingpatterns.structural.adapter.newConnections.ConnectionCImplAdapter;
-import com.nachogl1.reviewingpatterns.structural.adapter.oldConnections.ConnectionAImpl;
+import com.nachogl1.reviewingpatterns.structural.adapter.example.newConnections.ConnectionCImpl;
+import com.nachogl1.reviewingpatterns.structural.adapter.example.newConnections.ConnectionCImplAdapter;
+import com.nachogl1.reviewingpatterns.structural.adapter.example.oldConnections.ConnectionAImpl;
 
 public class Main {
     public static void main(String[] args) {

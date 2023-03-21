@@ -1,6 +1,6 @@
-package com.nachogl1.reviewingpatterns.structural.adapter;
+package com.nachogl1.reviewingpatterns.structural.adapter.example;
 
-import com.nachogl1.reviewingpatterns.structural.adapter.oldConnections.Connection;
+import com.nachogl1.reviewingpatterns.structural.adapter.example.oldConnections.Connection;
 
 public class ConnectionManager {
     private final Connection con;

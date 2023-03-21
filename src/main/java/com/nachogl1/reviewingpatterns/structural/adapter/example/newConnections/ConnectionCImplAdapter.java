@@ -1,6 +1,6 @@
-package com.nachogl1.reviewingpatterns.structural.adapter.newConnections;
+package com.nachogl1.reviewingpatterns.structural.adapter.example.newConnections;
 
-import com.nachogl1.reviewingpatterns.structural.adapter.oldConnections.Connection;
+import com.nachogl1.reviewingpatterns.structural.adapter.example.oldConnections.Connection;
 
 public class ConnectionCImplAdapter implements Connection {
 

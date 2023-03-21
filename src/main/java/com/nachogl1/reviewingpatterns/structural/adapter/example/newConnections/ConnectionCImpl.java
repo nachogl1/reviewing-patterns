@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.structural.adapter.newConnections;
+package com.nachogl1.reviewingpatterns.structural.adapter.example.newConnections;
 
 public class ConnectionCImpl {
     public String processA() {

@@ -1,4 +1,4 @@
-package com.nachogl1.reviewingpatterns.structural.adapter.oldConnections;
+package com.nachogl1.reviewingpatterns.structural.adapter.example.oldConnections;
 
 public class ConnectionAImpl implements Connection {
     @Override
